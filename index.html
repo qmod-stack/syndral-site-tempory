@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Syndral LifeOps is a unified personal operations platform for tasks, habits, projects, finances, health, and goals."
+    />
+    <meta name="theme-color" content="#1444FF" />
+    <title>Syndral | Your Life, Operationalized.</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand-link" href="#top" aria-label="Syndral home">
+          <picture>
+            <source srcset="assets/syndral-logo-extracted-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="assets/syndral-logo-extracted-light.png" alt="Syndral" />
+          </picture>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu" id="primary-menu" data-nav-menu>
+          <a href="#problem">Problem</a>
+          <a href="#lifeops">LifeOps</a>
+          <a href="#ecosystem">Ecosystem</a>
+          <a class="nav-cta" href="#waitlist">Join Waitlist</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-band" id="top" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <picture class="hero-logo">
+              <source srcset="assets/syndral-logo-extracted-dark.png" media="(prefers-color-scheme: dark)" />
+              <img src="assets/syndral-logo-extracted-light.png" alt="Syndral" />
+            </picture>
+            <p class="eyebrow">LifeOps command center</p>
+            <h1 id="hero-title">Your Life, Operationalized.</h1>
+            <p class="hero-subtitle">
+              A unified personal operations platform for tasks, habits, projects,
+              finances, health, and goals.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#waitlist">Join the Waitlist</a>
+              <a class="button button-secondary" href="#lifeops">Explore LifeOps</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem section-band" id="problem" aria-labelledby="problem-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="eyebrow">The problem</p>
+            <h2 id="problem-title">Your personal systems were never integrated.</h2>
+          </div>
+          <div class="content-stack">
+            <p class="lead">
+              The average knowledge worker uses 9-12 different apps every day, but
+              those tools rarely share data or context.
+            </p>
+            <div class="problem-list" role="list">
+              <div role="listitem">
+                <span>01</span>
+                <p>Tasks, habits, projects, goals, finances, health data, contacts, and calendars live in separate silos.</p>
+              </div>
+              <div role="listitem">
+                <span>02</span>
+                <p>People spend more time managing their tools than doing their work.</p>
+              </div>
+              <div role="listitem">
+                <span>03</span>
+                <p>Constant context switching makes it feel like something is always slipping through the cracks.</p>
+              </div>
+            </div>
+            <blockquote>
+              "I sat in front of integrated dashboards all day at work, then came home and tried to run my personal life with sticky notes and three calendars that didn't talk to each other."
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution section-band" id="lifeops" aria-labelledby="solution-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">LifeOps</p>
+            <h2 id="solution-title">A personal cockpit for the life you are actually flying.</h2>
+            <p>
+              LifeOps consolidates tasks, habits, projects, goals, finances, health data,
+              contacts, and calendar into one integrated command center.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article>
+              <span class="feature-index">01</span>
+              <h3>Unified dashboard</h3>
+              <p>See priorities, schedule, momentum, commitments, and key personal signals in one place.</p>
+            </article>
+            <article>
+              <span class="feature-index">02</span>
+              <h3>AI-powered briefings</h3>
+              <p>Start the day with concise operational context instead of hunting through disconnected apps.</p>
+            </article>
+            <article>
+              <span class="feature-index">03</span>
+              <h3>Offline-first</h3>
+              <p>Designed for real life: capture, review, and keep moving even when connectivity is uneven.</p>
+            </article>
+            <article>
+              <span class="feature-index">04</span>
+              <h3>Every screen</h3>
+              <p>Built to work across desktop, tablet, and mobile without losing the command-center feel.</p>
+            </article>
+          </div>
+          <blockquote class="quote-card">
+            "You are the pilot. LifeOps is the instrument panel."
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="ecosystem section-band" id="ecosystem" aria-labelledby="ecosystem-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Product ecosystem</p>
+            <h2 id="ecosystem-title">One operating system, multiple life domains.</h2>
+            <p>
+              Syndral is building an ops-grade suite around LifeOps, with focused modules
+              planned for money, attention, movement, health, and travel.
+            </p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card active-product">
+              <img src="assets/lifeops-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status">Under Development and Test</span>
+                <h3>LifeOps</h3>
+                <p>The central command center for tasks, habits, projects, goals, calendar, contacts, finances, and health signals.</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/moneyops-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status planned">Planned</span>
+                <h3>MoneyOps</h3>
+                <p>Personal finance visibility for budgets, recurring commitments, trends, and money decisions.</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/focusops-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status planned">Planned</span>
+                <h3>FocusOps</h3>
+                <p>Attention planning for deep work, context recovery, routines, and execution windows.</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/geoops-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status planned">Planned</span>
+                <h3>GeoOps</h3>
+                <p>Location-aware planning for errands, movement, travel, and real-world logistics.</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/biosync-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status planned">Planned</span>
+                <h3>BioSync</h3>
+                <p>Health and recovery context for sleep, training, habits, and sustainable performance.</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="assets/airops-icon-extracted.png" alt="" aria-hidden="true" />
+              <div>
+                <span class="status planned">Planned</span>
+                <h3>AirOps</h3>
+                <p>Travel and aviation-inspired operational tools for movement, readiness, and situational awareness.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="waitlist section-band" id="waitlist" aria-labelledby="waitlist-title">
+        <div class="section-inner waitlist-grid">
+          <div>
+            <p class="eyebrow">Early access</p>
+            <h2 id="waitlist-title">Join the Waitlist</h2>
+            <p class="lead">Get early access to LifeOps.</p>
+          </div>
+          <div class="form-shell">
+            <iframe
+              title="Syndral waitlist Microsoft Form"
+              src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAqhAX4dUQlJZNUpUT0NDWEowM1BVUEw2NVBWMUozRS4u&embed=true"
+              width="100%"
+              height="600"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading...
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-logo" href="#top" aria-label="Syndral home">
+          <picture>
+            <source srcset="assets/syndral-logo-extracted-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="assets/syndral-logo-extracted-light.png" alt="Syndral" />
+          </picture>
+        </a>
+        <p>&copy; 2026 Syndral. All rights reserved.</p>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="mailto:syndral.ops@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
