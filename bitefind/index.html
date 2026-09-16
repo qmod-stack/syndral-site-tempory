@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffaf6" />
+    <meta name="description" content="BiteFind helps students discover sample meals by budget and preference, then plan their dining dollars." />
+    <link rel="icon" type="image/png" href="./assets/bitefind-mark.png" />
+    <link rel="stylesheet" href="./styles-product.css" />
+    <script src="./app.js" defer></script>
+    <title>BiteFind | Eat Better. Spend Smarter.</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="BiteFind home">
+          <img src="./assets/bitefind-mark.png" alt="" width="66" height="66" />
+          <span class="brand-copy"><strong>Bite<span>Find</span></strong><small>Eat Better. Spend Smarter.</small></span>
+        </a>
+        <nav class="header-nav" aria-label="Main navigation"><a href="#discover">Discover</a><a href="#plan">Meal plan</a></nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="wrap intro-inner">
+          <div class="intro-copy">
+            <p class="eyebrow">OKLAHOMA STATE PILOT PREVIEW</p>
+            <h1 id="intro-title">Find your next <em>good bite.</em></h1>
+            <p>Explore meals that fit your budget and what you’re craving. Make every dining dollar count.</p>
+          </div>
+          <div class="intro-mark" aria-hidden="true">
+            <img src="./assets/bitefind-mark.png" alt="" width="176" height="176" />
+            <strong>Bite<span>Find</span></strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="finder-section" id="discover" aria-labelledby="finder-title">
+        <div class="wrap finder-wrap">
+          <div class="finder-heading">
+            <div>
+              <p class="section-kicker">BROWSE BITES</p>
+              <h2 id="finder-title">Discover</h2>
+            </div>
+            <span class="sample-flag">Preview menu · sample meals and prices</span>
+          </div>
+
+          <div class="workspace">
+            <div class="finder-main">
+              <label class="search-label" for="meal-search">Search the sample menu</label>
+              <div class="search-shell">
+                <input id="meal-search" type="search" placeholder="Try chicken, bowl, or vegetarian" autocomplete="off" />
+              </div>
+              <div class="filter-bar" role="group" aria-label="Meal filters">
+                <button type="button" class="filter active" data-filter="all" aria-pressed="true">All options</button>
+                <button type="button" class="filter" data-filter="under9" aria-pressed="false">Under $9</button>
+                <button type="button" class="filter" data-filter="protein" aria-pressed="false">High protein</button>
+                <button type="button" class="filter" data-filter="vegetarian" aria-pressed="false">Vegetarian</button>
+              </div>
+              <p class="result-count" id="result-count" role="status" aria-live="polite">3 sample meals</p>
+
+              <div class="meal-grid" id="meal-grid">
+                <article class="meal-card" data-name="Grilled Chicken Bowl" data-tags="chicken bowl protein" data-price="8.49" data-protein="46" data-vegetarian="false">
+                  <img src="./assets/chicken-bowl.png" alt="Illustrative grilled chicken bowl" width="480" height="300" />
+                  <div class="meal-content">
+                    <div class="meal-top"><span>Sample meal</span><strong>$8.49</strong></div>
+                    <h3>Grilled Chicken Bowl</h3>
+                    <p>46g sample protein · about 2 min walk</p>
+                    <span class="meal-tag">High protein</span>
+                  </div>
+                </article>
+                <article class="meal-card" data-name="Chickpea Quinoa Bowl" data-tags="chickpea quinoa bowl vegetarian" data-price="7.95" data-protein="18" data-vegetarian="true">
+                  <img src="./assets/chickpea-bowl.png" alt="Illustrative chickpea and quinoa bowl" width="480" height="300" />
+                  <div class="meal-content">
+                    <div class="meal-top"><span>Sample meal</span><strong>$7.95</strong></div>
+                    <h3>Chickpea Quinoa Bowl</h3>
+                    <p>18g sample protein · about 4 min walk</p>
+                    <span class="meal-tag">Vegetarian example</span>
+                  </div>
+                </article>
+                <article class="meal-card" data-name="Grilled Chicken Sandwich" data-tags="chicken sandwich protein" data-price="9.25" data-protein="38" data-vegetarian="false">
+                  <img src="./assets/chicken-sandwich.png" alt="Illustrative grilled chicken sandwich" width="480" height="300" />
+                  <div class="meal-content">
+                    <div class="meal-top"><span>Sample meal</span><strong>$9.25</strong></div>
+                    <h3>Grilled Chicken Sandwich</h3>
+                    <p>38g sample protein · about 3 min walk</p>
+                    <span class="meal-tag">Quick lunch idea</span>
+                  </div>
+                </article>
+              </div>
+              <div class="empty-state" id="empty-state" hidden>
+                <strong>No sample meals match.</strong>
+                <p>Clear the search or choose a different filter.</p>
+                <button type="button" id="reset-filters">Show all options</button>
+              </div>
+            </div>
+
+            <aside class="budget-panel" id="plan" aria-labelledby="budget-title">
+              <span class="panel-overline">DINING DOLLARS</span>
+              <h2 id="budget-title">Meal plan tracker</h2>
+              <p>See what your remaining balance allows each day.</p>
+              <form id="budget-form" novalidate>
+                <label for="balance-input">Sample balance ($)</label>
+                <input id="balance-input" name="balance" type="number" min="0" max="10000" step="0.01" inputmode="decimal" value="1247" required />
+                <label for="days-input">Days remaining</label>
+                <input id="days-input" name="days" type="number" min="1" max="365" step="1" inputmode="numeric" value="77" required />
+                <button type="submit">Update daily guide</button>
+              </form>
+              <p class="form-error" id="budget-error" role="alert" hidden></p>
+              <div class="budget-result" aria-live="polite">
+                <span>SUGGESTED DAILY SPEND</span>
+                <strong id="daily-budget">$16.19</strong>
+                <small id="budget-equation">$1,247.00 across 77 days</small>
+              </div>
+              <p class="budget-footnote">Planning estimate only. Prices, nutrition, distance, and balance shown here are illustrative.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span><strong>Bite<span>Find</span></strong> · Eat Better. Spend Smarter.</span>
+        <p>Independent prototype for an Oklahoma State pilot. Not affiliated with or endorsed by Oklahoma State University. Sample data only; no campus account connection.</p>
+      </div>
+    </footer>
+  </body>
+</html>
