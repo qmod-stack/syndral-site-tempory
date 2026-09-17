@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-09-17",
+  "officialAllergenGuide": "https://dining.okstate.edu/nutrition/allergen-information",
+  "netNutrition": "https://nutritionfacts.okstate.edu/NetNutrition/1",
+  "concepts": {
+    "express-it": "https://dining.okstate.edu/locations/express-it",
+    "fast-break": "https://dining.okstate.edu/locations/fast-break",
+    "slam-dunk": "https://dining.okstate.edu/locations/slam-dunk",
+    "1890-market": "https://dining.okstate.edu/locations/1890-market",
+    "byte": "https://dining.okstate.edu/locations/byte",
+    "caribou-central": "https://dining.okstate.edu/locations/caribou-coffee-cmp",
+    "405-deli": "https://dining.okstate.edu/locations/the-405-deli",
+    "bb-co": "https://dining.okstate.edu/locations/bb-co",
+    "carvery": "https://dining.okstate.edu/locations/carvery",
+    "dash": "https://dining.okstate.edu/locations/dash",
+    "natural": "https://dining.okstate.edu/locations/the-natural",
+    "noodle-u": "https://dining.okstate.edu/locations/noodle-u",
+    "road-trip": "https://dining.okstate.edu/locations/road-trip",
+    "zest": "https://dining.okstate.edu/locations/zest",
+    "bread-beyond": "https://dining.okstate.edu/locations/bread-beyond-deli",
+    "caribou-union": "https://dining.okstate.edu/locations/caribou-coffee",
+    "chick-fil-a": "https://dining.okstate.edu/locations/chick-fil-a",
+    "mambo": "https://dining.okstate.edu/locations/mambo-italiano",
+    "passport": "https://dining.okstate.edu/locations/passport",
+    "plaza": "https://dining.okstate.edu/locations/plaza-corner-cafe",
+    "red-earth": "https://dining.okstate.edu/locations/red-earth-kitchen",
+    "shake-smart": "https://dining.okstate.edu/locations/shake-smart",
+    "taqueria": "https://dining.okstate.edu/locations/union-chophouse",
+    "union-express": "https://dining.okstate.edu/locations/union-express",
+    "dairy-bar": "https://dining.okstate.edu/locations/dairy-bar",
+    "cafe-libro": "https://dining.okstate.edu/locations/cafe-libro",
+    "barkin-brews": "https://dining.okstate.edu/locations/barkin-brews"
+  },
+  "franchiseAllergens": {
+    "caribou-central": "https://www.cariboucoffee.com/",
+    "caribou-union": "https://www.cariboucoffee.com/",
+    "chick-fil-a": "https://www.chick-fil-a.com/nutrition-allergens",
+    "shake-smart": "https://shakesmart.com/menu/"
+  }
+}

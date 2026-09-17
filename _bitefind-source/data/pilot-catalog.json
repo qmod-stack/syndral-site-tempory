@@ -1,0 +1,11 @@
+{
+  "campus": { "id": "osu-stillwater", "name": "Oklahoma State University", "timeZone": "America/Chicago" },
+  "checkedAt": "2026-09-17",
+  "venueSource": "https://dining.okstate.edu/locations",
+  "venues": [
+    { "id": "central-market", "name": "Central Market Place", "area": "Near the residence halls off Farm Road", "lat": null, "lon": null, "hours": null, "orderUrl": "https://www.grubhub.com/about/campus" },
+    { "id": "north-dining", "name": "North Dining", "area": "Hall of Fame Avenue and Monroe Street", "lat": null, "lon": null, "hours": null, "orderUrl": "https://www.grubhub.com/about/campus" },
+    { "id": "student-union", "name": "Student Union", "area": "University Avenue and Hester Street", "lat": null, "lon": null, "hours": null, "orderUrl": "https://www.grubhub.com/about/campus" }
+  ],
+  "items": []
+}

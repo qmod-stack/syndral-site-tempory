@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://dining.okstate.edu/locations",
+  "checkedAt": "2026-09-17",
+  "areas": [
+    { "name": "Adams Market", "venues": [{ "id": "express-it", "name": "Express It!" }] },
+    { "name": "Bennett Hall", "venues": [{ "id": "fast-break", "name": "Fast Break", "access": "Bennett Hall residents only" }, { "id": "slam-dunk", "name": "Slam Dunk", "access": "Bennett Hall residents only" }] },
+    { "name": "Central Market Place", "venues": [{ "id": "1890-market", "name": "1890 Market" }, { "id": "byte", "name": "BYTE" }, { "id": "caribou-central", "name": "Caribou Coffee" }, { "id": "405-deli", "name": "The 405 Deli" }] },
+    { "name": "North Dining", "venues": [{ "id": "bb-co", "name": "B & B, Co." }, { "id": "carvery", "name": "Carvery" }, { "id": "dash", "name": "Dash" }, { "id": "natural", "name": "The Natural" }, { "id": "noodle-u", "name": "Noodle U" }, { "id": "road-trip", "name": "Road Trip Pizza & Mac" }, { "id": "zest", "name": "Zest" }] },
+    { "name": "Student Union", "venues": [{ "id": "bread-beyond", "name": "Bread & Beyond Deli" }, { "id": "caribou-union", "name": "Caribou Coffee" }, { "id": "chick-fil-a", "name": "Chick-fil-A" }, { "id": "mambo", "name": "Mambo Italiano" }, { "id": "passport", "name": "Passport" }, { "id": "plaza", "name": "Plaza Corner Cafe" }, { "id": "red-earth", "name": "Red Earth Kitchen" }, { "id": "shake-smart", "name": "Shake Smart" }, { "id": "taqueria", "name": "Union Chophouse Taqueria" }, { "id": "union-express", "name": "Union Express" }] },
+    { "name": "Other Campus Dining", "venues": [{ "id": "dairy-bar", "name": "Larry & Kay's Dairy Bar" }, { "id": "cafe-libro", "name": "Café Libro" }, { "id": "barkin-brews", "name": "Barkin' Brews" }] }
+  ]
+}

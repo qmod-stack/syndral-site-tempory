@@ -1,0 +1,5 @@
+# Preserve runtime lock hashes and generated release hashes on every platform.
+_bitefind-source/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+bitefind/** -text
+# Minified vendor output is generated, not hand-formatted source.
+bitefind/assets/*.js -whitespace

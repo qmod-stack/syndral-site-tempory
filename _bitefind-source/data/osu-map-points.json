@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-17",
+  "precision": "OpenStreetMap building-footprint center or mapped food-building center; not a restaurant counter, entrance, or surveyed geofence",
+  "sources": ["https://dining.okstate.edu/locations", "https://map.okstate.edu/?id=1842", "https://www.openstreetmap.org/copyright"],
+  "points": [
+    { "id": "adams-market", "label": "Adams Market", "area": "Adams Market", "lat": 36.1278230, "lon": -97.0731966, "osmWayId": 258851408 },
+    { "id": "bennett-hall", "label": "Bennett Hall", "area": "Bennett Hall", "lat": 36.1274251, "lon": -97.0638385, "osmWayId": 209322796 },
+    { "id": "central-market-place", "label": "Central Market Place", "area": "Central Market Place", "lat": 36.1234528, "lon": -97.0747905, "osmWayId": 1556488379 },
+    { "id": "north-dining", "label": "North Dining", "area": "North Dining", "lat": 36.1273935, "lon": -97.0739031, "osmWayId": 440433499, "officialMapUrl": "https://map.okstate.edu/?id=1842#!m/522086?share", "note": "Unnamed OSM food-building footprint cross-checked against the official North Dining Hall marker and Google Maps; confirm entrance on site." },
+    { "id": "student-union", "label": "Student Union", "area": "Student Union", "lat": 36.1210811, "lon": -97.0684272, "osmWayId": 152668665 },
+    { "id": "edmon-low-library", "label": "Edmon Low Library · Café Libro", "venueId": "cafe-libro", "lat": 36.1230267, "lon": -97.0696966, "osmWayId": 116506567 },
+    { "id": "mcelroy-hall", "label": "McElroy Hall · Barkin' Brews", "venueId": "barkin-brews", "lat": 36.1242118, "lon": -97.0822433, "osmWayId": 242159591 },
+    { "id": "agricultural-hall", "label": "Agricultural Hall · Dairy Bar", "venueId": "dairy-bar", "lat": 36.1252967, "lon": -97.0713302, "osmWayId": 1485434766 }
+  ]
+}
